@@ -5,7 +5,7 @@ const Home = () => {
     const tshirts = useLoaderData();
     return (
         <div>
-            <h2>This is Home:{tshirts.lenght}</h2>
+            <h2>This is Home:{tshirts.length}</h2>
         </div>
     );
 };
